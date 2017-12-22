@@ -6,44 +6,40 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<section>
-			<div class="ecran" id="idEcran">
-				<input type="text" name="ecran">
+		<section class="calculatrice" id="calculatrice">
+			<div class="ecran" id="idEcran" placeholder='0'>
 			</div>
-			<div class="lgn1" id="idLgn1">
-				<input type="button" name="btn7" id="idBtn7" value="7">
-				<input type="button" name="btn8" id="idBtn8" value="8">
-				<input type="button" name="btn9" id="idBtn9" value="9">
-				<input type="button" name="btnPrct" id="idBtnPrct" value="%">
-				<input type="button" name="btnCorrect" id="idBtnCorrect" value="C">
-			</div>
-			<div class="lgn2" id="idLgn2">
-				<input type="button" name="btn4" id="idBtn4" value="4">
-				<input type="button" name="btn5" id="idBtn5" value="5">
-				<input type="button" name="btn6" id="idBtn6" value="6">
-				<input type="button" name="btnMult" id="idBtnMult" value="X">
-				<input type="button" name="btnCe" id="idBtnCe" value="CE">
-			</div>
-			<div class="lgn3" id="idLgn3">
-				<input type="button" name="btn1" id="idBtn1" value="1">
-				<input type="button" name="btn2" id="idBtn2" value="2">
-				<input type="button" name="btn3" id="idBtn3" value="3">
-				<input type="button" name="btnSous" id="idBtnSous" value="-">
-				<input type="button" name="btnEgl" id="idBtnEgl" value="=">
-			</div>
-			<div class="lgn4" id="idLgn4">
-				<input type="button" name="btn0" id="idBtn0" value="0">
-				<!--<input type="button" name="btn0" id="idBtnZero" value="0">-->
-				<input type="button" name="btnPnt" id="idBtnPnt" value="."> 
-				<input type="button" name="btnPls" id="idBtnPls" value="+">
-				<!--<input type="button" name="btnPlus" id="idBtnPlus" value="+">-->
-
-			</div>
+				<div class="lgn1" id="idLgn1">
+					<input type="button" name="btnPG" class="buttonNum" id="idBtnPG" value="(">
+					<input type="button" name="btnPD" class="buttonNum" id="idBtnPD" value=")">
+					<input type="button" name="btnPC" class="buttonNum"  id="idBtnPC" value="%">
+					<input type="button" name="btnCE" class="button" id="idBtnCE" value="CE">
+				</div>
+				<div class="lgn2" id="idLgn2">
+					<input type="button" name="btn7" class="buttonNum" id="idBtn7" value="7">
+					<input type="button" name="btn8" class="buttonNum" id="idBtn8" value="8">
+					<input type="button" name="btn9" class="buttonNum" id="idBtn9" value="9">
+					<input type="button" name="btnDiv" class="button" id="idBtnDiv" value="/">
+				</div>
+				<div class="lgn3" id="idLgn3">
+					<input type="button" name="btn4" class="buttonNum" id="idBtn4" value="4">
+					<input type="button" name="btn5" class="buttonNum" id="idBtn5" value="5">
+					<input type="button" name="btn6" class="buttonNum" id="idBtn6" value="6">
+					<input type="button" name="btnMult" class="button" id="idBtnMult" value="x">	
+				</div>
+				<div class="lgn4" id="idLgn4">
+					<input type="button" name="btn1" class="buttonNum" id="idBtn1" value=1>
+					<input type="button" name="btn" class="buttonNum" id="idBtn2" value="2"> 
+					<input type="button" name="btnPls" class="buttonNum" id="idBtn3" value="3">
+					<input type="button" name="btnEgl" class="button" id="idBtnSous" value="-">
+				</div>
+				<div class="lgn5" id="idLgn5">
+					<input type="button" name="btn0" class="buttonNum" id="idBtnZero" value="0">
+					<input type="button" name="btnPnt" class="buttonNum" id="idBtnPnt" value=".">
+					<input type="button" name="btnEgl" class="button" id="idBtnEgl" value="=">
+					<input type="button" name="btnEgl" class="button" id="idBtnPls" value="+">
+				</div>
 		</section>
-
-
-
-
 		<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
 	</body>
